@@ -1,14 +1,12 @@
 
-@media only screen and (max-width:400px){
 
 
-  .nav-container ul{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 
-  }
+
+
+
+
+
 
 
   .profile-pic{
@@ -22,21 +20,24 @@
     margin-top: 250px;
     margin-bottom: 230px;
     margin-left: 150px;
-    width:20%;
+    width:8%;
 
 
 
   }
+  /*
   .top-container{
+
     width:100vw;
   }
   .middle-container{
     width:100vw;
   }
   .bottom-container{
-    width:100vw;
 
-  }
+    width:100vw;*/
+
+
   .sun{
     margin-top:250px;
     margin-right: 250px;
@@ -50,12 +51,14 @@ ul li{
 
 
 
-}
+
 
 /*responsive*/
-html{
-  width:100vw;
-}
+/*
+html
+
+  width:100vw;*/
+
 
 body{
   color: #40514E;
@@ -63,7 +66,8 @@ body{
   text-align: center;
   font-family: 'Merriweather',serif;
   /*responsive with vh*/
-  width: 100vw;
+  /*
+  width: 100vw;*/
 
 
 
@@ -73,7 +77,9 @@ h1{
   color: #66BFBF;
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
-  font-family: 'Sacramento',cursive;
+  /*
+  font-family: 'Sacramento',cursive;*/
+  font-family: 'Montserrat',sans-serif;
   line-height: 2;
 }
 
@@ -107,9 +113,10 @@ hr{
 }
 nav{
 
-  background-color:teal ;
+  background-color:#66bfbf;
 
-  padding-top: 20px;
+
+  padding-top:20px;
   padding-bottom: 20px;
 
 
@@ -124,10 +131,12 @@ ul{
   padding:0;
   /*responsive*/
   width:100%;
+
 }
 li{
 
   list-style-type: none;
+
 
 
 
@@ -145,6 +154,7 @@ a:hover{
 }
 .nav-link{
   color:white;
+  
 
 
 }
@@ -153,11 +163,12 @@ a:hover{
 
 
 img{
-  max-width: 100vw;
+  max-width: 100%;
   height: auto;
 }
 .nav-container{
   width:100%;
+
 }
 
 
@@ -194,6 +205,10 @@ margin:100px 0;
   background-color: #66BFBF;
   padding: 50px 0 20px;
 
+
+}
+.linkedin{
+  padding-bottom:20px;
 }
 .skill-row{
   width:50%;
@@ -226,8 +241,8 @@ margin:100px 0;
 
 .sun{
   position: absolute;
-  right: 300px;
-  top:250px;
+  right: 10px;
+  top:200px;
   width:8%;
   opacity: 0.9;
 
@@ -236,7 +251,7 @@ margin:100px 0;
 
 .bottom-cloud{
   position: absolute;
-  left:300px;
+  left:100px;
   bottom: 300px;
 
 }
